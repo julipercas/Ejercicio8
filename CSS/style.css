@@ -1,7 +1,48 @@
+@font-face {
+    font-family: "lobster";
+    src: url("../fonts/lobster.woff");
+  }
 body{
     background-color: blanchedalmond;
     color: sienna;
 }
+img{
+    margin:15px;
+}
+h1{
+    text-align:center;
+    text-decoration: underline;
+    font-family: "lobster";
+}
+h2{
+    text-align:left;
+    text-decoration: underline;
+    font-family: "lobster";
+}
+hr{
+    border: 2px solid sienna;
+    margin-left:10%;
+    margin-right:10%;
+}
 div{
-    
+    overflow: auto;
+}
+footer{
+    text-align:right;
+    font-size:small;
+}
+#pic1{
+    float:left;
+}
+#pic2{
+   float:right; 
+}
+#pic3{
+    float:left;
+}
+#pic4{
+    float:right; 
+}
+#pic5{
+    float:left;
 }
